@@ -1,97 +1,3 @@
----
-lockfileVersion: '9.0'
-
-importers:
-
-  .:
-    configDependencies: {}
-    packageManagerDependencies:
-      '@pnpm/exe':
-        specifier: 10.33.0
-        version: 10.33.0
-      pnpm:
-        specifier: 10.33.0
-        version: 10.33.0
-
-packages:
-
-  '@pnpm/exe@10.33.0':
-    resolution: {integrity: sha512-sGsjztJBelzVMd0RhceDJ3p8Hk7eBcpu4G/TF6REzIvNdkKyxDT0czc1BWyo8Kbg+U0OBtK/TAGXN7Art4rTdg==}
-    hasBin: true
-
-  '@pnpm/linux-arm64@10.33.0':
-    resolution: {integrity: sha512-oYb5NxEyImqaTkLVX/7jL59m9Vfmd07iLWzr4Pg2LIk4XEtAllNcnksNHcp5Uf+lFk/BggtpOdvC84TG3VnbFw==}
-    cpu: [arm64]
-    os: [linux]
-    hasBin: true
-
-  '@pnpm/linux-x64@10.33.0':
-    resolution: {integrity: sha512-JYD2GXDF2roKpvTg5s032lYcUcT9lMedYlzxoqitWTjKlkMhl2gXRYpiDHdi2mWC5nFOJYlgYbUuy6jh3rXhng==}
-    cpu: [x64]
-    os: [linux]
-    hasBin: true
-
-  '@pnpm/macos-arm64@10.33.0':
-    resolution: {integrity: sha512-3w9Pqpw0swnAbnEdAKumMuKj+TPaGratnqC49bC41vjR1pNs0UMwVdOxiIROUMQy5OHKPx0IH/wOOP0hkhJd+g==}
-    cpu: [arm64]
-    os: [darwin]
-    hasBin: true
-
-  '@pnpm/macos-x64@10.33.0':
-    resolution: {integrity: sha512-SBeiLjU/9ORMIXAMsD6+Ltaaesniwh49FeFcG6kA64Zxr30U9SyzeZDnNOyWCGFjHeCmGfzCnSpNEN4VNo827g==}
-    cpu: [x64]
-    os: [darwin]
-    hasBin: true
-
-  '@pnpm/win-arm64@10.33.0':
-    resolution: {integrity: sha512-8X3NQqmfNVZ+dCu+EfD7ZkAgDgIKKdAgBBKcvhvMoMJq/nWHOfqDLxewE9TQ7qzVLuUKG/9b/xBVRVjdtDOm0w==}
-    cpu: [arm64]
-    os: [win32]
-    hasBin: true
-
-  '@pnpm/win-x64@10.33.0':
-    resolution: {integrity: sha512-wiPVvxmTuB6FFn+rZ4FfSk1WTn+cxiQ7MTJEEz1k9VZLN/yZujGrv/WLYH2JcwzVTgObfmQuBKeNgEUavEL0Qg==}
-    cpu: [x64]
-    os: [win32]
-    hasBin: true
-
-  pnpm@10.33.0:
-    resolution: {integrity: sha512-EFaLtKavtYyes2MNqQzJUWQXq+vT+rvmc58K55VyjaFJHp21pUTHatjrdXD1xLs9bGN7LLQb/c20f6gjyGSTGQ==}
-    engines: {node: '>=18.12'}
-    hasBin: true
-
-snapshots:
-
-  '@pnpm/exe@10.33.0':
-    optionalDependencies:
-      '@pnpm/linux-arm64': 10.33.0
-      '@pnpm/linux-x64': 10.33.0
-      '@pnpm/macos-arm64': 10.33.0
-      '@pnpm/macos-x64': 10.33.0
-      '@pnpm/win-arm64': 10.33.0
-      '@pnpm/win-x64': 10.33.0
-
-  '@pnpm/linux-arm64@10.33.0':
-    optional: true
-
-  '@pnpm/linux-x64@10.33.0':
-    optional: true
-
-  '@pnpm/macos-arm64@10.33.0':
-    optional: true
-
-  '@pnpm/macos-x64@10.33.0':
-    optional: true
-
-  '@pnpm/win-arm64@10.33.0':
-    optional: true
-
-  '@pnpm/win-x64@10.33.0':
-    optional: true
-
-  pnpm@10.33.0: {}
-
----
 lockfileVersion: '9.0'
 
 settings:
@@ -395,8 +301,8 @@ catalogs:
       specifier: ^6.0.0
       version: 6.0.0
     better-sqlite3:
-      specifier: ^12.8.0
-      version: 12.8.0
+      specifier: ^12.9.0
+      version: 12.9.0
     chroma-js:
       specifier: ^3.2.0
       version: 3.2.0
@@ -1549,13 +1455,13 @@ importers:
         version: 0.13.11(arktype@2.1.20)(typescript@5.9.3)(zod@4.3.6)
       better-sqlite3:
         specifier: 'catalog:'
-        version: 12.8.0
+        version: 12.9.0
       dns-caching:
         specifier: 'catalog:'
         version: 0.2.9
       drizzle-orm:
         specifier: 'catalog:'
-        version: 0.45.2(@libsql/client-wasm@0.14.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.20.0)(better-sqlite3@12.8.0)(gel@2.0.0)(mysql2@3.22.0(@types/node@24.12.2))(pg@8.20.0)
+        version: 0.45.2(@libsql/client-wasm@0.14.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.20.0)(better-sqlite3@12.9.0)(gel@2.0.0)(mysql2@3.22.0(@types/node@24.12.2))(pg@8.20.0)
       ioredis:
         specifier: 'catalog:'
         version: 5.10.1
@@ -1809,7 +1715,7 @@ importers:
         version: 11.14.0
       better-sqlite3:
         specifier: 'catalog:'
-        version: 12.8.0
+        version: 12.9.0
       dotenv:
         specifier: 'catalog:'
         version: 17.4.1
@@ -1818,10 +1724,10 @@ importers:
         version: 0.31.10
       drizzle-orm:
         specifier: 'catalog:'
-        version: 0.45.2(@libsql/client-wasm@0.14.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.20.0)(better-sqlite3@12.8.0)(gel@2.0.0)(mysql2@3.22.0(@types/node@24.12.2))(pg@8.20.0)
+        version: 0.45.2(@libsql/client-wasm@0.14.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.20.0)(better-sqlite3@12.9.0)(gel@2.0.0)(mysql2@3.22.0(@types/node@24.12.2))(pg@8.20.0)
       drizzle-zod:
         specifier: 'catalog:'
-        version: 0.8.3(drizzle-orm@0.45.2(@libsql/client-wasm@0.14.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.20.0)(better-sqlite3@12.8.0)(gel@2.0.0)(mysql2@3.22.0(@types/node@24.12.2))(pg@8.20.0))(zod@4.3.6)
+        version: 0.8.3(drizzle-orm@0.45.2(@libsql/client-wasm@0.14.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.20.0)(better-sqlite3@12.9.0)(gel@2.0.0)(mysql2@3.22.0(@types/node@24.12.2))(pg@8.20.0))(zod@4.3.6)
       mysql2:
         specifier: 'catalog:'
         version: 3.22.0(@types/node@24.12.2)
@@ -6400,8 +6306,8 @@ packages:
   before-after-hook@4.0.0:
     resolution: {integrity: sha512-q6tR3RPqIB1pMiTRMFcZwuG5T8vwp+vUvEG0vuI6B+Rikh5BfPp2fQ82c925FOs+b0lcFQ8CFrL+KbilfZFhOQ==}
 
-  better-sqlite3@12.8.0:
-    resolution: {integrity: sha512-RxD2Vd96sQDjQr20kdP+F+dK/1OUNiVOl200vKBZY8u0vTwysfolF6Hq+3ZK2+h8My9YvZhHsF+RSGZW2VYrPQ==}
+  better-sqlite3@12.9.0:
+    resolution: {integrity: sha512-wqUv4Gm3toFpHDQmaKD4QhZm3g1DjUBI0yzS4UBl6lElUmXFYdTQmmEDpAFa5o8FiFiymURypEnfVHzILKaxqQ==}
     engines: {node: 20.x || 22.x || 23.x || 24.x || 25.x}
 
   bidi-js@1.0.3:
@@ -14905,7 +14811,7 @@ snapshots:
 
   before-after-hook@4.0.0: {}
 
-  better-sqlite3@12.8.0:
+  better-sqlite3@12.9.0:
     dependencies:
       bindings: 1.5.0
       prebuild-install: 7.1.2
@@ -15525,19 +15431,19 @@ snapshots:
       esbuild: 0.25.12
       tsx: 4.21.0
 
-  drizzle-orm@0.45.2(@libsql/client-wasm@0.14.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.20.0)(better-sqlite3@12.8.0)(gel@2.0.0)(mysql2@3.22.0(@types/node@24.12.2))(pg@8.20.0):
+  drizzle-orm@0.45.2(@libsql/client-wasm@0.14.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.20.0)(better-sqlite3@12.9.0)(gel@2.0.0)(mysql2@3.22.0(@types/node@24.12.2))(pg@8.20.0):
     optionalDependencies:
       '@libsql/client-wasm': 0.14.0
       '@types/better-sqlite3': 7.6.13
       '@types/pg': 8.20.0
-      better-sqlite3: 12.8.0
+      better-sqlite3: 12.9.0
       gel: 2.0.0
       mysql2: 3.22.0(@types/node@24.12.2)
       pg: 8.20.0
 
-  drizzle-zod@0.8.3(drizzle-orm@0.45.2(@libsql/client-wasm@0.14.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.20.0)(better-sqlite3@12.8.0)(gel@2.0.0)(mysql2@3.22.0(@types/node@24.12.2))(pg@8.20.0))(zod@4.3.6):
+  drizzle-zod@0.8.3(drizzle-orm@0.45.2(@libsql/client-wasm@0.14.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.20.0)(better-sqlite3@12.9.0)(gel@2.0.0)(mysql2@3.22.0(@types/node@24.12.2))(pg@8.20.0))(zod@4.3.6):
     dependencies:
-      drizzle-orm: 0.45.2(@libsql/client-wasm@0.14.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.20.0)(better-sqlite3@12.8.0)(gel@2.0.0)(mysql2@3.22.0(@types/node@24.12.2))(pg@8.20.0)
+      drizzle-orm: 0.45.2(@libsql/client-wasm@0.14.0)(@types/better-sqlite3@7.6.13)(@types/pg@8.20.0)(better-sqlite3@12.9.0)(gel@2.0.0)(mysql2@3.22.0(@types/node@24.12.2))(pg@8.20.0)
       zod: 4.3.6
 
   dunder-proto@1.0.1:
