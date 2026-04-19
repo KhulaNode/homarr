@@ -2,8 +2,8 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "KhulaNode",
-    short_name: "KhulaNode",
+    name: "Khulanode Services Dashboard",
+    short_name: "Khulanode Services Dashboard",
     description: "Your dashboard for managing your server.",
     start_url: "/",
     display: "standalone",

@@ -7,7 +7,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: khulanode:latest
+    image: khulanode-services:latest
     restart: unless-stopped
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock # Optional, only if you want docker integration
@@ -15,4 +15,4 @@ services:
     environment:
       - SECRET_ENCRYPTION_KEY=b97af42bb74ee450e56cad2c251effab871cfd27257810d0f66525674e5021a1
     ports:
-      - '7575'
+      - '7575:7575'

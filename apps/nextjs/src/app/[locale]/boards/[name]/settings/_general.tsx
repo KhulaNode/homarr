@@ -87,7 +87,7 @@ export const GeneralSettingsContent = ({ board }: Props) => {
           <Grid.Col span={{ xs: 12, md: 6 }}>
             <TextInput
               label={t("board.field.pageTitle.label")}
-              placeholder="KhulaNode"
+              placeholder="Khulanode Services Dashboard"
               {...form.getInputProps("pageTitle")}
             />
           </Grid.Col>

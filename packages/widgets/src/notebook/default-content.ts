@@ -2,7 +2,7 @@ export const defaultContent = `
 <p style="text-align: center">
     <img src="/logo/khulanode-logo.png" width="25%">
 </p>
-<h2>Welcome to <strong><span style="color: rgb(35, 156, 244)">KhulaNode</span>'s</strong> notebook widget</h2>
+<h2>Welcome to <strong><span style="color: rgb(35, 156, 244)">Khulanode Services Dashboard</span>'s</strong> notebook widget</h2>
 <p>
     The <code>notebook</code> widget focuses on usability and is designed to be as simple as possible to bring a 
     familiar editing experience to regular users, be it markdown or office type editors. 

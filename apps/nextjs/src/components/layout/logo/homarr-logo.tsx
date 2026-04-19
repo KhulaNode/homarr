@@ -6,11 +6,11 @@ interface LogoProps {
 }
 
 export const homarrLogoPath = "/logo/khulanode-logo.png";
-export const homarrPageTitle = "KhulaNode";
+export const homarrPageTitle = "Khulanode Services Dashboard";
 
 const imageOptions = {
   src: homarrLogoPath,
-  alt: "KhulaNode logo",
+  alt: "Khulanode Services Dashboard logo",
   shouldUseNextImage: true,
 };
 

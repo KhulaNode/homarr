@@ -20,7 +20,7 @@ const getPropsAsync = async (): Promise<BoardNotFoundProps> => {
 
   if (boardCount === 0) {
     return {
-      icon: { src: "/favicon.ico", alt: "KhulaNode logo" },
+      icon: { src: "/favicon.ico", alt: "Khulanode Services Dashboard logo" },
       title: t("board.error.noBoard.title"),
       description: t("board.error.noBoard.description"),
       link: { label: t("board.error.noBoard.link"), href: "/manage/boards" },

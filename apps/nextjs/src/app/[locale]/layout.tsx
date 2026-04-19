@@ -40,21 +40,21 @@ const fontSans = Inter({
 
 // eslint-disable-next-line no-restricted-syntax
 export const generateMetadata = async (): Promise<Metadata> => ({
-  title: "KhulaNode",
+  title: "Khulanode Services Dashboard",
   description:
-    "Simplify the management of your server with KhulaNode - a sleek, modern dashboard that puts all of your apps and services at your fingertips.",
+    "Simplify the management of your server with Khulanode Services Dashboard - a sleek, modern dashboard that puts all of your apps and services at your fingertips.",
   openGraph: {
-    title: "KhulaNode Dashboard",
+    title: "Khulanode Services Dashboard",
     description:
-      "Simplify the management of your server with KhulaNode - a sleek, modern dashboard that puts all of your apps and services at your fingertips.",
-    siteName: "KhulaNode",
+      "Simplify the management of your server with Khulanode Services Dashboard - a sleek, modern dashboard that puts all of your apps and services at your fingertips.",
+    siteName: "Khulanode Services Dashboard",
   },
   icons: {
     icon: "/favicon.ico",
     apple: "/apple-touch-icon.png",
   },
   appleWebApp: {
-    title: "KhulaNode",
+    title: "Khulanode Services Dashboard",
     capable: true,
     startupImage: { url: "/logo/khulanode-logo.png" },
     statusBarStyle: (await getCurrentColorSchemeAsync()) === "dark" ? "black-translucent" : "default",

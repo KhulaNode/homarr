@@ -16,7 +16,7 @@ import { UserSettingsForm } from "./_components/user-settings-form";
 
 export async function generateMetadata() {
   const t = await getScopedI18n("management");
-  const metaTitle = `${t("metaTitle")} • KhulaNode`;
+  const metaTitle = `${t("metaTitle")} • Khulanode Services Dashboard`;
 
   return {
     title: metaTitle,
