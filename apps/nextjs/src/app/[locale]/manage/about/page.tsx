@@ -79,7 +79,7 @@ export default async function AboutPage() {
           <Image src={homarrLogoPath} width={100} height={100} alt="" />
           <Stack gap={0}>
             <Title order={1} tt="uppercase">
-              Homarr
+              KhulaNode
             </Title>
             <Title order={2}>{t("version", { version })}</Title>
           </Stack>

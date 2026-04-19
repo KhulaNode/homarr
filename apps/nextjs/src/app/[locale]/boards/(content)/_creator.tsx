@@ -18,6 +18,7 @@ import { getI18n } from "@homarr/translation/server";
 import { prefetchForKindAsync } from "@homarr/widgets/prefetch";
 
 import { createMetaTitle } from "~/metadata";
+import { homarrLogoPath } from "~/components/layout/logo/homarr-logo";
 import { createBoardLayout } from "../_layout-creator";
 import type { Board, Item } from "../_types";
 import { DynamicClientBoard } from "./_dynamic-client";
@@ -91,7 +92,7 @@ export const createBoardContentPage = <TParams extends Record<string, unknown>>(
           },
           appleWebApp: {
             startupImage: {
-              url: !isNullOrWhitespace(board.faviconImageUrl) ? board.faviconImageUrl : "/logo/logo.png",
+              url: !isNullOrWhitespace(board.faviconImageUrl) ? board.faviconImageUrl : homarrLogoPath,
             },
           },
         };

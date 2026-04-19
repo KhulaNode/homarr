@@ -1,8 +1,8 @@
 export const defaultContent = `
 <p style="text-align: center">
-    <img src="/logo/logo.png" width="25%">
+    <img src="/logo/khulanode-logo.png" width="25%">
 </p>
-<h2>Welcome to <strong><span style="color: rgb(250, 82, 82)">Homarr</span>'s</strong> notebook widget</h2>
+<h2>Welcome to <strong><span style="color: rgb(35, 156, 244)">KhulaNode</span>'s</strong> notebook widget</h2>
 <p>
     The <code>notebook</code> widget focuses on usability and is designed to be as simple as possible to bring a 
     familiar editing experience to regular users, be it markdown or office type editors. 
@@ -82,12 +82,12 @@ export const defaultContent = `
         </tr>
         <tr>
             <td colspan="1" rowspan="1">
-                <p><span style="color: rgb(250, 82, 82)">Text coloring</span></p>
+                <p><span style="color: rgb(35, 156, 244)">Text coloring</span></p>
             </td>
             <td colspan="1" rowspan="1">
-                <p style="text-align: center"><mark data-color="#FA5252" style="background-color: #FA5252; color: inherit">highlighting</mark></p>
+                <p style="text-align: center"><mark data-color="#239CF4" style="background-color: #239CF4; color: inherit">highlighting</mark></p>
             </td>
-            <td colspan="1" rowspan="1" style="background-color: rgb(250, 82, 82)">
+            <td colspan="1" rowspan="1" style="background-color: rgb(35, 156, 244)">
                 <p style="text-align: right">Table cells</p>
             </td>
         </tr>

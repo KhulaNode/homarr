@@ -53,7 +53,7 @@ CREATE TABLE `board` (
 	`background_image_attachment` text DEFAULT 'fixed' NOT NULL,
 	`background_image_repeat` text DEFAULT 'no-repeat' NOT NULL,
 	`background_image_size` text DEFAULT 'cover' NOT NULL,
-	`primary_color` text DEFAULT '#fa5252' NOT NULL,
+	`primary_color` text DEFAULT '#239CF4' NOT NULL,
 	`secondary_color` text DEFAULT '#fd7e14' NOT NULL,
 	`opacity` integer DEFAULT 100 NOT NULL,
 	`custom_css` text,

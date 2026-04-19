@@ -87,7 +87,7 @@ export const GeneralSettingsContent = ({ board }: Props) => {
           <Grid.Col span={{ xs: 12, md: 6 }}>
             <TextInput
               label={t("board.field.pageTitle.label")}
-              placeholder="Homarr"
+              placeholder="KhulaNode"
               {...form.getInputProps("pageTitle")}
             />
           </Grid.Col>
@@ -103,7 +103,7 @@ export const GeneralSettingsContent = ({ board }: Props) => {
             <IconPicker
               {...form.getInputProps("logoImageUrl")}
               label={t("board.field.logoImageUrl.label")}
-              placeholder="/logo/logo.png"
+              placeholder={homarrLogoPath}
               withAsterisk={false}
             />
           </Grid.Col>
@@ -111,7 +111,7 @@ export const GeneralSettingsContent = ({ board }: Props) => {
             <IconPicker
               {...form.getInputProps("faviconImageUrl")}
               label={t("board.field.faviconImageUrl.label")}
-              placeholder="/logo/logo.png"
+              placeholder={homarrLogoPath}
               withAsterisk={false}
             />
           </Grid.Col>

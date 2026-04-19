@@ -20,7 +20,7 @@ export const mapBoard = (preparedBoard: PreparedBoard): InferInsertModel<typeof 
   pageTitle: preparedBoard.config.settings.customization.pageTitle,
   metaTitle: preparedBoard.config.settings.customization.metaTitle,
   opacity: preparedBoard.config.settings.customization.appOpacity,
-  primaryColor: mapColor(preparedBoard.config.settings.customization.colors.primary, "#fa5252"),
+  primaryColor: mapColor(preparedBoard.config.settings.customization.colors.primary, "#239CF4"),
   secondaryColor: mapColor(preparedBoard.config.settings.customization.colors.secondary, "#fd7e14"),
 });
 

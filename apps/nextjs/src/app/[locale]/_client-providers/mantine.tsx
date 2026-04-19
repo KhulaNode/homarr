@@ -10,6 +10,7 @@ import { useSession } from "@homarr/auth/client";
 import { parseCookies, setClientCookie } from "@homarr/common";
 import type { ColorScheme } from "@homarr/definitions";
 import { colorSchemeCookieKey } from "@homarr/definitions";
+import { uiConfiguration } from "@homarr/ui";
 
 export const CustomMantineProvider = ({
   children,
@@ -22,7 +23,7 @@ export const CustomMantineProvider = ({
         defaultColorScheme={defaultColorScheme}
         colorSchemeManager={manager}
         theme={createTheme({
-          primaryColor: "red",
+          ...uiConfiguration.theme,
           autoContrast: true,
         })}
       >

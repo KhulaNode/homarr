@@ -5,12 +5,12 @@ interface LogoProps {
   size: number;
 }
 
-export const homarrLogoPath = "/logo/logo.png";
-export const homarrPageTitle = "Homarr";
+export const homarrLogoPath = "/logo/khulanode-logo.png";
+export const homarrPageTitle = "KhulaNode";
 
 const imageOptions = {
   src: homarrLogoPath,
-  alt: "Homarr logo",
+  alt: "KhulaNode logo",
   shouldUseNextImage: true,
 };
 

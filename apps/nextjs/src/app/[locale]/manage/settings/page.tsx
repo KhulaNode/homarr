@@ -16,7 +16,7 @@ import { UserSettingsForm } from "./_components/user-settings-form";
 
 export async function generateMetadata() {
   const t = await getScopedI18n("management");
-  const metaTitle = `${t("metaTitle")} • Homarr`;
+  const metaTitle = `${t("metaTitle")} • KhulaNode`;
 
   return {
     title: metaTitle,

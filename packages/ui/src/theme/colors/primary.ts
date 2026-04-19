@@ -1,14 +1,14 @@
 import type { MantineColorsTuple } from "@mantine/core";
 
 export const primaryColor: MantineColorsTuple = [
-  "#eafbf0",
-  "#ddefe3",
-  "#bedcc7",
-  "#9bc8aa",
-  "#7eb892",
-  "#6bad81",
-  "#60a878",
-  "#509265",
-  "#438359",
-  "#35724a",
+  "#e7f8ff",
+  "#cfefff",
+  "#9adeff",
+  "#62c8ff",
+  "#34b3fa",
+  "#239cf4",
+  "#1f84d8",
+  "#2a54aa",
+  "#244990",
+  "#1d3d78",
 ];

@@ -4,6 +4,7 @@ import { splitToNChunks } from "@homarr/common";
 import { integrationDefs } from "@homarr/definitions";
 import { getScopedI18n } from "@homarr/translation/server";
 
+import { homarrLogoPath, homarrPageTitle } from "~/components/layout/logo/homarr-logo";
 import classes from "./hero-banner.module.css";
 
 const icons = Object.values(integrationDefs)
@@ -25,8 +26,8 @@ export const HeroBanner = async () => {
           {t("heroBanner.title")}
         </Title>
         <Group gap="xs" wrap="nowrap">
-          <Image src="/logo/logo.png" w={{ base: 32, md: 40 }} h={{ base: 32, md: 40 }} />
-          <Title fz={{ base: "h3", md: "h1" }}>{t("heroBanner.subtitle", { app: "Homarr" })}</Title>
+          <Image src={homarrLogoPath} w={{ base: 32, md: 40 }} h={{ base: 32, md: 40 }} />
+          <Title fz={{ base: "h3", md: "h1" }}>{t("heroBanner.subtitle", { app: homarrPageTitle })}</Title>
         </Group>
       </Stack>
       <Box visibleFrom="md" className={classes.scrollContainer} w={"30%"} top={0} right={0} pos="absolute">

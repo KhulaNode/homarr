@@ -1,1 +1,1 @@
-export const createMetaTitle = (name: string) => `${name} • Homarr`;
+export const createMetaTitle = (name: string) => `${name} • KhulaNode`;

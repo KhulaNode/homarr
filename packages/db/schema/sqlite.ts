@@ -267,7 +267,7 @@ export const boards = sqliteTable("board", {
     .notNull(),
   backgroundImageRepeat: text().$type<BackgroundImageRepeat>().default(backgroundImageRepeats.defaultValue).notNull(),
   backgroundImageSize: text().$type<BackgroundImageSize>().default(backgroundImageSizes.defaultValue).notNull(),
-  primaryColor: text().default("#fa5252").notNull(),
+  primaryColor: text().default("#239CF4").notNull(),
   secondaryColor: text().default("#fd7e14").notNull(),
   opacity: int().default(100).notNull(),
   customCss: text(),

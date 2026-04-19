@@ -40,31 +40,30 @@ const fontSans = Inter({
 
 // eslint-disable-next-line no-restricted-syntax
 export const generateMetadata = async (): Promise<Metadata> => ({
-  title: "Homarr",
+  title: "KhulaNode",
   description:
-    "Simplify the management of your server with Homarr - a sleek, modern dashboard that puts all of your apps and services at your fingertips.",
+    "Simplify the management of your server with KhulaNode - a sleek, modern dashboard that puts all of your apps and services at your fingertips.",
   openGraph: {
-    title: "Homarr Dashboard",
+    title: "KhulaNode Dashboard",
     description:
-      "Simplify the management of your server with Homarr - a sleek, modern dashboard that puts all of your apps and services at your fingertips.",
-    url: "https://homarr.dev",
-    siteName: "Homarr Documentation",
+      "Simplify the management of your server with KhulaNode - a sleek, modern dashboard that puts all of your apps and services at your fingertips.",
+    siteName: "KhulaNode",
   },
   icons: {
-    icon: "/logo/logo.png",
-    apple: "/logo/logo.png",
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
   },
   appleWebApp: {
-    title: "Homarr",
+    title: "KhulaNode",
     capable: true,
-    startupImage: { url: "/logo/logo.png" },
+    startupImage: { url: "/logo/khulanode-logo.png" },
     statusBarStyle: (await getCurrentColorSchemeAsync()) === "dark" ? "black-translucent" : "default",
   },
 });
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "white" },
+    { media: "(prefers-color-scheme: light)", color: "#239CF4" },
     { media: "(prefers-color-scheme: dark)", color: "black" },
   ],
 };
